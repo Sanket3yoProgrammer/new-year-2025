@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.pyro > .before, .pyro > .after {
+  z-index: 100;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  box-shadow: 0 0 #fff; /* Initial box-shadow */
+  animation: bang 1s ease-out infinite backwards, gravity 1s ease-in infinite backwards, position 5s linear infinite backwards;
+}
+
+.pyro > .after {
+  animation-delay: 1.25s, 1.25s, 1.25s;
+  animation-duration: 1.25s, 1.25s, 6.25s;
+}
+
+
+
+@keyframes gravity {
+  to {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+}
+
+@keyframes position {
+  0%, 19.9% {
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  20%, 39.9% {
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+  40%, 59.9% {  
+    margin-top: 20%;
+    margin-left: 70%;
+  }
+  60%, 79.9% {  
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+  80%, 99.9% {  
+    margin-top: 30%;
+    margin-left: 80%;
+  }
+} 

@@ -74,7 +74,7 @@ export const NewYearWish = () => {
         />
         <div
           ref={textRef}
-          className="relative bg-black/50 backdrop-blur-sm p-8 rounded-xl text-xl md:text-2xl font-serif text-white leading-relaxed text-center shadow-[0_0_15px_rgba(168,85,247,0.5)]"
+          className="relative bg-black/50 backdrop-blur-sm p-8 rounded-xl text-lg md:text-xl font-serif text-white leading-relaxed text-center shadow-[0_0_15px_rgba(168,85,247,0.5)]"
         >
           🎉 May the coming year bring endless joy, prosperity, and countless moments of happiness. 
           Let's embrace new beginnings and create beautiful memories together. 

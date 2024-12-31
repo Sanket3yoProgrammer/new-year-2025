@@ -26,7 +26,7 @@ export const Profile = () => {
         transition={{ delay: 2.5 }}
         className="mt-4 text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent"
       >
-        Best Wishes By Sanket3yoProgrammer
+        Sanket3yoProgrammer
       </motion.h2> </a>
     </motion.div>
   );
